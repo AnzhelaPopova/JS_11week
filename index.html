@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css" />
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="basket" >
+        <h2>Корзина</h2>
+
+        <div class="card">
+            <div class="card-items">
+                <img src="./images/блузка.png" height="100px" alt="Блузка"> 
+                <div class="card-item">
+                 <h2>Блузка</h2>
+                 <p>Цвет:бежевый</p>
+                 <p>Размер:42</p>
+                 <p>Количество:1</p>
+                </div>
+            </div>
+            <p  >цена :<span class="price1" >1200</span>р</p>
+        </div>
+
+        <div class="card">
+            <div class="card-items">
+                <img src="./images/пальто.png" height="100px" alt="Пальто"> 
+                <div class="card-item">
+                 <h2>Блузка</h2>
+                 <p>Цвет:бежевый</p>
+                 <p>Размер:42</p>
+                 <p>Количество:1</p>
+                </div>
+            </div>
+            <p >цена :<span class="price2" >5000</span>р</p>
+        </div>
+
+        <div class="card">
+            <div class="card-items">
+                <img src="./images/платье.png" height="100px" alt="Платье"> 
+                <div class="card-item">
+                 <h2>Блузка</h2>
+                 <p>Цвет:черное</p>
+                 <p>Размер:42</p>
+                 <p>Количество:1</p>
+                </div>
+            </div>
+            <p >цена :<span class="price3" >1800</span>р</p>
+        </div>
+
+        <div class="card">
+            <div class="card-items">
+                <img src="./images/юбка.png" height="100px" alt="Юбка"> 
+                <div class="card-item">
+                 <h2>Блузка</h2>
+                 <p>Цвет:зеленая</p>
+                 <p>Размер:42</p>
+                 <p>Количество:1</p>
+                </div>
+            </div>
+            <p >цена :<span class="price4" >900</span>р</p>
+        </div>
+
+<div class="button">
+    <button  onclick = "diskount()" >Использовать купон на <span class = "sumdiskount" id="sumdiskount "> 20 </span>%</button>
+  <p>Итого: <span class= "totalprice" > 0 </span>р</p>
+</div>
+    </div>
+
+        <script src="./index.js"></script>
+</body>
+</html>

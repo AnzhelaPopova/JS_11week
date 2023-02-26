@@ -1,0 +1,40 @@
+.basket {
+    display: flex;
+    flex-direction: column;
+    width: 60vw;
+}
+
+img {
+    height: 200px;
+    width: 200px;
+    padding: 10px;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    border:1px solid black;
+    justify-content: space-between;
+
+}
+
+.card-items {
+    display: flex;
+    flex-direction: row;
+}
+
+.card-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.price {
+    padding: 10px;
+}
+
+.button {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
